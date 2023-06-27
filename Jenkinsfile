@@ -17,7 +17,7 @@ pipeline {
             steps {
                 //in case of Win OS use "bat" instead "sh"
                 sh "npm install"
-                sh "mocha **/*.spec.js --reporter mochawesome"
+                sh "npx mocha **/*.spec.js --reporter mochawesome"
             }
         }
         stage('Building'){
