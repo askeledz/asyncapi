@@ -8,7 +8,7 @@ describe('Async demo', () => {
     const baseURL = 'https://jsonplaceholder.typicode.com';
     var postId = 1; //it's fixed becose it's fake
 
-    /*     before(function (done) {
+/*     before(function (done) { // No async
         request(baseURL)
             .post('/auth')
             //.send(userauthdata)
