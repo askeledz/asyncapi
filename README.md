@@ -1,4 +1,3 @@
-### asyncapi
 Async REST API demo test framework using Supertest, Mocha, Chai ...
 
 ### install Node Packages
