@@ -1,9 +1,8 @@
 ### asyncapi
 Async REST API demo test framework using Supertest, Mocha, Chai ...
 
-### Install Node Packages
+### install Node Packages
 To run this project locally, you only need to run two commands after you clone the project to local:
-
 ```bash
 npm install (npm i)
 ```
